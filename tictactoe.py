@@ -18,7 +18,7 @@ class TICTACTOE:
             curr_player = "X" if index%2==1 else "O"
             self.get_usr_input(curr_player)
             self.display_current_state()
-            if index >=6:
+            if index >=5:
                 win =  self.winner()
                 if win:
                     print(f"PLAYER {win} WON THE GAME")
