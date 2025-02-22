@@ -1,2 +1,2 @@
 # TICTACTOE
-sime terminal based game
+simple terminal based TICTACTOE game using python
